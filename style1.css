@@ -1,0 +1,20 @@
+body {
+    background-image: url("no\ signal.gif");
+    width: 1920px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 50%;
+
+    opacity: 0.1; /*прозорість зображення 0 - повністю прозоре, 1 - непрозоре*/
+
+    transition: opacity 0.1s; /*час за який змінюється прозорість картинки*/
+    transition-delay: 2s; /*час через який спрацює*/
+}
+
+img:hover {
+    opacity: 1; /*зміна прозорості зображення при наведенні курсора 1 - непрозоре*/
+}
